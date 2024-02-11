@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-require '../../data.php';
+require __DIR__. '../../../data.php';
 
 
 
-$pages = $siteArray;
+$earlyDays = $earlyDaysArray;
 
-
+$newer = $newestSiteArray;
 
 require view('startpage');

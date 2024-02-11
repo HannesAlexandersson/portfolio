@@ -1,11 +1,19 @@
 <?php
 declare(strict_types=1);
 
-$siteArray = [
-  "Retronautica" => "Retronautica",
-  "OpenAPI" => "OpenAPI",
+$newestSiteArray = [
+  "Retronautica" => "Retronautica",  
   "pong-game" => "pong-game",
   "Protech" => "Protech",
   "Yrgopelago" => "Yrgopelago",
   "Parallax-project" => "Parallax-project",
+];
+
+ 
+
+$earlyDaysArray = [
+  "SomeTeams" => "SomeTeams",
+  "snack-o-mat" => "snack-o-mat",
+  "OpenAPI" => "OpenAPI",
+  "theRoom" => "theRoom",
 ];

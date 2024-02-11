@@ -1,8 +1,44 @@
+:root{
+  /* Colors*/
+  --default-bg: #190009;
+  --primary-accent: #9658d3ff;
+  --secondary-bg: #ea4c87ff;
+  --secondary-accent: #e03957ff;
+  --default-font-clr: #FF5722;;
+  --room-cards-bg: #f7ad6b;
+  --offset-dark: #222022;
+  --spotlight-blur-clr: #ece255;
+  --extra-font-clr: #fe9460ff;
+  
+  /*fonts*/
+  --default-font: sans-serif, 'IBM Plex Sans';
+  --detail-font: 'Grandstander', cursive, sans-serif;
+  --secondary-font: 'Bebas Neue', sans-serif;
+  }
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--default-bg);
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+a:visited{
+  text-decoration: none;
+}
 .card-container {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  align-items: flex-start;
+  gap: 3rem;
+  align-items: center;
 }
 
 .cards {
@@ -15,6 +51,8 @@
   transform: translateX(100px);
   opacity: 0;
   transition: 150ms;
+  width: 40%;
+  text-align: center;
 }
 .cards.show {
   transform: translateX(0);

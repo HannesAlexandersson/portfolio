@@ -14,7 +14,7 @@ class Request
     $currentUri = preg_replace('/\?.*/', '', trim($_SERVER['REQUEST_URI'], '/'));
     return $currentUri;
     }
-    throw new NotFoundHttpException();
+    throw new NotFoundHttpException("request");
     
   } 
 }

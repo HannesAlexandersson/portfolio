@@ -6,7 +6,7 @@ const observer = new IntersectionObserver(entries => {
   })
 }, {
   threshold: 1, 
-  //rootMargin: "-100px", Gör så att containern är 100px mindre än vad den egentligen är. Drar in marginalen nere och uppe OBS vi vill oftast att laddningen ska ske innan den kommer in i synfältet om det är krävande network saker, sätt då till ett posetivt värde
+  //rootMargin: "-100px", //Gör så att containern är 100px mindre än vad den egentligen är. Drar in marginalen nere och uppe OBS vi vill oftast att laddningen ska ske innan den kommer in i synfältet om det är krävande network saker, sätt då till ett posetivt värde
 })
 
 cards.forEach(card => { 
