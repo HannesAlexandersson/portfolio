@@ -4,13 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <style>
-    /* body{
-      background-image: url(assets/new.jpg);
-      background-repeat: no-repeat;
-      background-position: bottom;
-      background-size: cover;
-    } */
+  <style>    
     body{
       margin: 0 auto;
     }

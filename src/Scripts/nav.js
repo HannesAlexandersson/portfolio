@@ -10,7 +10,7 @@ const navHeight = navBar.offsetHeight;
 
 window.addEventListener('scroll', () => {
   const scrolled = window.scrollY || document.documentElement.scrollTop;
-
+  
   if (scrolled > navHeight) {
     if (scrolled > lastScrollTop) {
       navBar.classList.remove('sticky');
@@ -24,6 +24,8 @@ window.addEventListener('scroll', () => {
   } else {
     navBar.classList.remove('animate', 'sticky');    
   }
-
+  
   lastScrollTop = scrolled;
 });
+
+

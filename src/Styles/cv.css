@@ -1,0 +1,8 @@
+.outer-ram {
+    margin: 1rem 1rem 16rem 1rem;
+    position: relative;
+    top: 10rem;
+}
+.website-title{
+    color: var(--primary-accent);
+}

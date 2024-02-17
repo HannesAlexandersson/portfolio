@@ -6,7 +6,7 @@
   --secondary-accent: #f45325;
 
   /*fonts*/
-  --default-font: sans-serif, "IBM Plex Sans";
+  --default-font:  "IBM Plex Sans", sans-serif;
   --detail-font: "Grandstander", cursive, sans-serif;
   --secondary-font: "Bebas Neue", sans-serif;
 }
@@ -19,6 +19,7 @@ body {
   overflow-x: hidden;
 }
 .default-font {
+  font-family: "IBM Plex Sans", sans-serif;
   font-family: var(--default-font);
 }
 .detail-font {

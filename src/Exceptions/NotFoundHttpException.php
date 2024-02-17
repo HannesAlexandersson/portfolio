@@ -8,5 +8,8 @@ use Exception;
 
 class NotFoundHttpException extends Exception
 {
-   
+    public function getNotFound()
+    {
+        require view('404');
+    }
 }
