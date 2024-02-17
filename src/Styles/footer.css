@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0rem 15px 0px;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 0.8rem;
+}
+.copyright{
+  color: var(--primary-accent);
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

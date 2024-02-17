@@ -1,37 +1,40 @@
-:root{
+:root {
   /* Colors*/
-  --default-bg: #190009;
-  --primary-accent: #9658d3ff;
   --secondary-bg: #ea4c87ff;
-  --secondary-accent: #e03957ff;
-  --default-font-clr: #FF5722;;
-  --room-cards-bg: #f7ad6b;
-  --offset-dark: #222022;
-  --spotlight-blur-clr: #ece255;
-  --extra-font-clr: #fe9460ff;
-  
-  /*fonts*/
-  --default-font: sans-serif, 'IBM Plex Sans';
-  --detail-font: 'Grandstander', cursive, sans-serif;
-  --secondary-font: 'Bebas Neue', sans-serif;
-  }
+  --primary-accent: #f3e1c7;
+  --default-bg: #161415;
+  --secondary-accent: #f45325;
 
-body{
+  /*fonts*/
+  --default-font: sans-serif, "IBM Plex Sans";
+  --detail-font: "Grandstander", cursive, sans-serif;
+  --secondary-font: "Bebas Neue", sans-serif;
+}
+
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: var(--default-bg);
   overflow-x: hidden;
 }
-
-a{
+.default-font {
+  font-family: var(--default-font);
+}
+.detail-font {
+  font-family: var(--detail-font);
+}
+.secondary-font {
+  font-family: var(--secondary-font);
+}
+a {
   text-decoration: none;
 }
-a:hover{
+a:hover {
   text-decoration: none;
   cursor: pointer;
 }
-a:visited{
+a:visited {
   text-decoration: none;
 }
 .card-container {
@@ -39,22 +42,59 @@ a:visited{
   flex-direction: column;
   gap: 3rem;
   align-items: center;
-}
 
+  position: relative;
+  top: 175px;
+  margin-bottom: 225px;
+}
+.outer-container {
+  display: flex;
+  background-color: var(--secondary-bg);
+
+  width: 60%;
+  border: solid 2px var(--secondary-accent);
+  border-top-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  background-image: url("/src/Assets/tree-736885_1920.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+}
 .cards {
   /* background-image: url();
   background-clip: text; */
   background: white;
   border: 1px solid black;
-  border-radius: .25rem;
-  padding: .5rem;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
   transform: translateX(100px);
   opacity: 0;
   transition: 150ms;
-  width: 40%;
-  text-align: center;
+
+  width: 30dvw;
+  height: 20dvh;
 }
 .cards.show {
   transform: translateX(0);
   opacity: 1;
+}
+
+.start-page-header {
+  color: var(--primary-accent);
+}
+
+.card-title {
+  color: var(--primary-accent);
+  font-size: x-large;
+}
+.github{
+  color: var(--primary-accent);
+  font-size: large;
 }

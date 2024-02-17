@@ -1,10 +1,19 @@
 .navbar {
   display: flex;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem 1rem 1rem;
   align-items: center;
   justify-content: space-between;
   position: fixed;
   transition: 0.5s;
+
+  width: 95dvw;
+}
+.logo{
+  width: 30%;
+  color: var(--primary-accent);
+  color: var(--secondary-bg);
+  color: var(--default-bg);
+  color: var(--secondary-accent);
 }
 .navbar a {
   text-decoration: none;
@@ -16,17 +25,13 @@
 nav a:hover {
   color: var(--primary-accent);
 }
-.logo-wrapper{
 
-}
-.title{
-
-}
-.link-wrapper{
-
+.links {
+  display: flex;
+  gap: 3rem;
 }
 .navbar.animate {
-  top: -100px;
+  top: -120px;
 }
 .navbar.sticky {
   top: 0;

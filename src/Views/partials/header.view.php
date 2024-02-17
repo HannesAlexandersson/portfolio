@@ -7,6 +7,7 @@
   <link rel="Stylesheet" href="/src/Styles/style.css" />
   <link rel="Stylesheet" href="/src/Styles/preloader.css" />
   <link rel="Stylesheet" href="/src/Styles/navbar.css" />
+  <link rel="Stylesheet" href="/src/Styles/footer.css" />
   <meta property="Description"    content="portfolio website for web-dev student Hannes Alexandersson">
   <meta property="og:title"       content="Hannes portfolio">
   <meta property="og:description" content="portfolio website">

@@ -14,29 +14,34 @@ cards.forEach(card => {
 })
 
 
-// LAZY LOADER observerar enbart sista saken i listan
-/*
-const lastCardObserver = new IntersectionObserver(entries => {
-  const lastCard = entries[0] 
-  if(!lastCard.isIntersecting) return //om sista kortet är i synfältet så kallar vi på metoden
-  loadNewCards()
-  lastCardObserver.unobserve(lastCard.target) //när vi har observat sista kortet vill vi unobserva det, laddningen är klar och vi behöver den inte längre
-  lastCardObserver.observe(document.querySelector(".cards:last-child"))  // eftersom vi får ett nytt lastcard av funktionen vill vi observa det istället
-}, {})
+/*--------------------------------        ----------------------------------*/
 
-lastCardObserver.observe(document.querySelector(".cards:last-child"))
-cards.forEach(card => {
-  observer.observe(card);
-})
+const backgroundCards = document.querySelectorAll('.cards');
 
-const cardContainer = document.querySelector(".card-container") // vi måste definera cardContainer
-function loadNewCards() {
-  for(let i = 0; i < cardContainer.length; i++) { //cardContainer.length är alltså storleken på card-container vad den än är, så ange den storleken som din card-container råkar vara för närvarande
-    const card = document.createElement("div")
-    card.txtContent = "New Card"
-    card.classList.add("Card")
-    observer.observe(card)
-    cardContainer.append(card)
+backgroundCards.forEach(card => {
+  const cardValue = card.getAttribute('value');
+  if (cardValue === 'Yrgopelago') {
+    console.log(cardValue);
+    card.style.backgroundImage = "url('src/Assets/screenshots/Yrgopelagoscreenshot.png')";
+  }else if(cardValue === "Retronautica"){
+    card.style.backgroundImage = "url('src/Assets/screenshots/retroscreenshot.png')";
+  }else if(cardValue === "pong-game"){
+    card.style.backgroundImage = "url('src/Assets/screenshots/pongscreenshot.png')";    
+  }else if(cardValue === "Protech"){
+    card.style.backgroundImage = "url('/src/Assets/screenshots/Protechscreenshot.png')";
+  }else if(cardValue === "Parallax-project"){
+    card.style.backgroundImage = "url('/src/Assets/screenshots/halloweenscreenshot.png')";
+  }else if(cardValue === 'SomeTeams'){
+    card.style.backgroundImage = "url('/src/Assets/screenshots/someteamsscreenshot.png')";
+  }else if(cardValue === 'snack-o-mat'){
+    card.style.backgroundImage = "url('/src/Assets/screenshots/snacscreenshot.png')";
+  }else if(cardValue === "OpenAPI"){
+    card.style.backgroundImage = "url('/src/Assets/screenshots/openscreenshot.png')";
+  }else if(cardValue === 'theRoom'){
+    card.style.backgroundImage = "url('/src/Assets/screenshots/roomscreenshot.png')";
   }
-}
-*/
+  card.style.backgroundSize = "cover";
+
+});
+
+/*--------------------------------        ----------------------------------*/
