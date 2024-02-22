@@ -11,7 +11,7 @@
   foreach($earlyDays as $name => $page){?>
     <div class="outer-container" id="clipping">
       <p class="card-title secondary-font"><?=$name?></p>
-      <a href="<?=$page['Url']?>">
+      <a href="<?=$page['path']?>">
         <div class="cards" value="<?=$page['Name']?>" name="<?=$page['Name']?>" data-tooltip="<?=$page['tooltip']?>" style="background-image: url(<?=$page['img']?>); background-size: cover;">    
         </div>
       </a>

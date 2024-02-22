@@ -13,6 +13,7 @@ class Webpage
 
     public function getUrl(): string
     {
-        return sprintf('https://www.alexanderochson.se/portfolio/%s/', strtolower($this->name));
+        //strtolower($this->name)
+        return sprintf('https://www.alexanderochson.se/%s/', $this->name);
     }
 }
