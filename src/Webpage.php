@@ -13,7 +13,7 @@ class Webpage
 
     public function getUrl(): string
     {
-        //strtolower($this->name)
+        //strtolower($this->name) We dont want lowercases
         return sprintf('https://www.alexanderochson.se/%s/', $this->name);
     }
 }
