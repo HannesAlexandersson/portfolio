@@ -25,15 +25,20 @@ let socialContainer = document.querySelector('.social-wrapper');
     let instaImg = document.createElement('img');
     instaImg.src = '/src/Assets/social-media/instagram.svg';
     instaImg.classList.add('instaImg');
-    let instaA =n
-    insta.appendChild(instaImg);
+    let instaA = document.createElement('a');
+    instaA.href = 'https://www.instagram.com/borttappad/';
+    instaA.appendChild(instaImg);
+    insta.appendChild(instaA);
 
     let gh = document.createElement('div');
     gh.classList.add('gh');
     let ghImg = document.createElement('img');
     ghImg.src = '/src/Assets/social-media/github-light.svg';
     ghImg.classList.add('ghImg');
-    gh.appendChild(ghImg);
+    let ghA = document.createElement('a');
+    ghA.href = 'https://github.com/HannesAlexandersson';
+    ghA.appendChild(ghImg);
+    gh.appendChild(ghA);
 
     socialContainer.appendChild(gh);
     socialContainer.appendChild(x);
