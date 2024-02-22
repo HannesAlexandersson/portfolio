@@ -1,0 +1,30 @@
+.wrapper {
+    gap: 5rem;
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.social-wrapper {
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ghImg{
+
+}
+.instaImg{
+
+}
+.xImg{
+
+}
+.contact-textWrapper{
+    color: var(--primary-accent);
+}
