@@ -56,7 +56,7 @@
   display: flex;
   gap: 3rem;
   align-items: center;
-  padding-right: 1rem;
+  padding-right: 1.5rem;
 }
 .navbar.animate {
   top: -120px;

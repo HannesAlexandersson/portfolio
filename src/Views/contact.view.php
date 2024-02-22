@@ -7,9 +7,9 @@
             <div class="contact-textWrapper secondary-font">
                 <p>Easiest way to contact me is Linkedin or on Github! Or why not leave your email and I'll contact you!</p>
             </div>
-            <form action="submit_form.php" method="post">
+            <form action="/submit_form" method="post">
                 <input type="email" name="email" placeholder="Enter your email" required>
-                <button type="submit">Submit</button>
+                <button class="btn" type="submit">Submit</button>
             </form>
         </div>
     </div>

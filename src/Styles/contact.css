@@ -9,14 +9,14 @@
     flex-direction: column;
 }
 .social-wrapper {
-    gap: 1rem;
+    gap: 3rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.ghImg{
+/* .ghImg{
 
 }
 .instaImg{
@@ -24,7 +24,18 @@
 }
 .xImg{
 
-}
+} */
 .contact-textWrapper{
     color: var(--primary-accent);
+}
+.btn{
+    border-radius: 22px;
+    background-color: var(--primary-accent);
+    color: var(--default-bg);
+    font-family: var(--default-font);
+}
+.btn:hover{
+    background-color: var(--default-bg);
+    color: var(--primary-accent);
+    cursor: pointer;
 }

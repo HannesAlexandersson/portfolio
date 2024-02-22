@@ -14,7 +14,7 @@ try {
         '/story' => __DIR__ .'/src/Controllers/myStory.php',
         '/contact' => __DIR__ .'/src/Controllers/contact.php',
         '/extWebPage' => __DIR__ .'/src/Controllers/getPage.php',
-        'submit_form.php' => __DIR__ .'/src/Controllers/submitForm.php'
+        '/submit_form' => __DIR__ .'/src/Controllers/submitForm.php'
     ]);
     
     $controllerFile = $router->direct(Request::Uri());
