@@ -6,6 +6,7 @@ use App\Exceptions\NotFoundHttpException;
 use App\Http\Request;
 use App\Http\Router;
 
+
 try {
     $router = new Router([
         '/' => __DIR__ . '/src/Controllers/startPage.php',

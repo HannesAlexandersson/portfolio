@@ -16,7 +16,7 @@ cards.forEach(card => {
 
 /*--------------------------------        ----------------------------------*/
 
-const backgroundCards = document.querySelectorAll('.cards');
+/* const backgroundCards = document.querySelectorAll('.cards');
 
 backgroundCards.forEach(card => {
   const cardValue = card.getAttribute('value');
@@ -42,6 +42,6 @@ backgroundCards.forEach(card => {
   }
   card.style.backgroundSize = "cover";
 
-});
+}); */
 
 /*--------------------------------        ----------------------------------*/

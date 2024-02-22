@@ -18,7 +18,7 @@ class Router
     {       
         
         if (array_key_exists($uri, $this->routes)) {
-            
+            echo $this->routes[$uri];
             return $this->routes[$uri];
         }
 

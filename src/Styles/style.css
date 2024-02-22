@@ -29,6 +29,7 @@ body {
   font-family: var(--secondary-font);
 }
 a {
+  color: var(--primary-accent);
   text-decoration: none;
 }
 a:hover {
@@ -99,3 +100,5 @@ a:visited {
   color: var(--primary-accent);
   font-size: large;
 }
+
+

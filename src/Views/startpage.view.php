@@ -12,10 +12,10 @@
     <div class="outer-container" id="clipping">
       <p class="card-title secondary-font"><?=$name?></p>
       <a href="<?=$page['Url']?>">
-        <div class="cards" value="<?=$page['Name']?>" name="<?=$page['Name']?>" data-tooltip="<?=$page['tooltip']?>">    
+        <div class="cards" value="<?=$page['Name']?>" name="<?=$page['Name']?>" data-tooltip="<?=$page['tooltip']?>" style="background-image: url(<?=$page['img']?>); background-size: cover;">    
         </div>
       </a>
-      <p class="github detail-font">Github: <?=$page['Github']?></p>
+      <p class="github detail-font">Github: <a href="<?=$page['Github']?>"><?=$page['Github']?></a></p>
 
     </div><?php
     }?>
@@ -25,13 +25,14 @@
       <div class="outer-container">
         <p class="card-title secondary-font"><?=$name?></p>
         <a href="<?=$page['Url']?>">
-          <div class="cards" value="<?=$page['Name']?>" name="<?=$page['Name']?>">    
+          <div class="cards" value="<?=$page['Name']?>" name="<?=$page['Name']?>" style="background-image: url(<?=$page['img']?>); background-size: cover;">    
           </div>
         </a>
-        <p class="github detail-font">Github: <?=$page['Github']?></p>
+        <p class="github detail-font">Github: <a href="<?=$page['Github']?>"><?=$page['Github']?></a></p>
       </div><?php
     }?>
 </div>
+
 
 
 <script src="/src/Scripts/observer.js"></script>
