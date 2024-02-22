@@ -65,3 +65,19 @@
   top: 0;
   z-index: 99;
 }
+
+@media (max-width: 700px){
+  .links{
+    gap: .1rem;
+  }
+  .navigation a {
+    position: relative;
+    font-size: 0.7em;
+    color: var(--primary-accent);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: .2rem;
+    padding: 0.5rem 0.3rem;
+    transition: .5s;
+}
+}

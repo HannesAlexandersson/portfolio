@@ -1,0 +1,20 @@
+.story-container {
+    position: relative;
+    color: var(--primary-accent);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: 5rem;
+    gap: 3rem;
+    top: 2rem;
+}
+.divider{
+    display: flex;
+    flex-direction: column;
+}
+.story-text > p{
+    color: var(--primary-accent);
+}
