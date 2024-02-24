@@ -4,7 +4,6 @@ require_once __DIR__ . '/vendor/autoload.php';
 use App\Exceptions\NotFoundHttpException;
 use App\Http\Request;
 use App\Http\Router;
-use App\Controllers;
 
 
 try {
