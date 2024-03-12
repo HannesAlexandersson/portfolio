@@ -35,6 +35,10 @@
 
 
 
+
 <script src="/src/Scripts/observer.js"></script>
 <hr>
-<?php require __DIR__ . '/partials/footer.view.php'; ?>
+<?php require __DIR__ . '/partials/footer.view.php';
+
+/* <img src="<?=$page['screen'] ?>" style="width: 100%;">  */ 
+?>
