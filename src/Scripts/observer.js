@@ -1,4 +1,6 @@
 const cards = document.querySelectorAll('.cards'); 
+
+
 const observer = new IntersectionObserver(entries => { 
   entries.forEach(entry => { 
     entry.target.classList.toggle("show", entry.isIntersecting)

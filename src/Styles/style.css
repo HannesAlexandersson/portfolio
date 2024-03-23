@@ -12,7 +12,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   background-color: var(--default-bg);
@@ -49,7 +49,7 @@ a:visited {
   top: 175px;
   margin-bottom: 225px;
 }
-.outer-container {
+.outer-container {  
   display: flex;
   background-color: var(--secondary-bg);
 
@@ -102,7 +102,64 @@ a:visited {
   color: var(--primary-accent);
   font-size: large;
 }
+/* 3d cards: 
+    <div class="card">
+        <div class="card-content">
+            <h1>WOAH</h1>
+            <p>Cool effect bro</p>
+        </div>
+    </div>
 
+body{
+    transform-style:preserve-3d;
+    perspective: 1000px;
+    height: 100vh;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.virtual-card {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    background: #00BCD4;
+    border-radius: 3px;
+    background-position: top center;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.virtual-card:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    border-radius: 50%;
+    left: 0;
+    bottom: 0px;
+    box-shadow: 0 30px 20px rgba(0,0,0,0.3);
+}
+
+.card-content{
+    transform-style: preserve-3d;
+    text-align: center;
+}
+
+.card-content h1{
+    color: #fff;
+    transform: translateZ(100px);
+}
+
+.card-content p{
+    color: #fff;
+    transform: translateZ(50px);
+}
+
+*/
 
 /* @media (max-width: 700px){
   .outer-container {

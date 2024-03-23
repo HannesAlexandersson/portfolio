@@ -28,6 +28,17 @@
             </p>
         
     </section>
+    <section class="divider">
+    <span><h1 class="story-header default-font">A new life</h1></span>
+        <span class="story-text secondary-font">
+            <p>
+               So back to the school life for me it was! Having 4 years of university studies in the back I do have some experience in how to study.
+               But what dont have is programming experience. As I said earlier I wrote my first "Hello World" about 4 months before I got in at Yrgo school. 
+               Lucky me, that I have fell in love with programming. Safe to say that Im doing my best to try and level the playing field sort of say. I spend almost all my 
+               waking hours at the computer either programming or watching tutorials. I dont even see it as a choir, I love it and choose it over playing video games! I cant wait for
+               getting to write "real" programs and websites for real customers! 
+            </p>
+            
 </div>
 
 <hr>

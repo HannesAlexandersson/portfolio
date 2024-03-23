@@ -9,6 +9,7 @@ use App\Http\Router;
 try {
     $router = new Router([
         '/' => __DIR__ . '/src/Controllers/startPage.php',
+        '/collection' => __DIR__ . '/src/Controllers/collection.php',
         '/cv' => __DIR__ . '/src/Controllers/curriculum.php',
         '/story' => __DIR__ .'/src/Controllers/myStory.php',
         '/contact' => __DIR__ .'/src/Controllers/contact.php',

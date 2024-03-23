@@ -4,6 +4,7 @@ declare(strict_types=1);
 $newestSiteArray = [
   "Retronautica" => [
     "Name" => "Retronautica",
+    "id" => 1,
     "Url" => "https://www.alexanderochson.se/Retronautica/",
     "Github" => "https://github.com/HannesAlexandersson/Retronautica",
     "img" => "/src/Assets/screenshots/retroscreenshot.png",
@@ -11,6 +12,7 @@ $newestSiteArray = [
     ],  
   "pong-game" => [
     "Name" => "pong-game",
+    "id" => 2,
     "Url" => "https://www.alexanderochson.se/pong-game/",
     "Github" => "https://github.com/HannesAlexandersson/pong-game",
     "img" => "/src/Assets/screenshots/pongscreenshot.png",
@@ -18,6 +20,7 @@ $newestSiteArray = [
   ],
   "Protech" => [
     "Name" => "Protech",
+    "id" => 3,
     "Url" => "https://www.alexanderochson.se/Protech/",
     "Github" => "https://github.com/HannesAlexandersson/Protech",
     "img" => "/src/Assets/screenshots/Protechscreenshot.png",
@@ -25,6 +28,7 @@ $newestSiteArray = [
   ],
   "Yrgopelago" => [
     "Name" => "Yrgopelago",
+    "id" => 4,
     "Url" => "https://www.alexanderochson.se/Yrgopelago/",
     "Github" => "https://github.com/HannesAlexandersson/Yrgopelago",
     "img" => "/src/Assets/screenshots/Yrgopelagoscreenshot.png",
@@ -32,6 +36,7 @@ $newestSiteArray = [
   ],  
   "Parallax-project" => [
     "Name" => "Parallax-project",
+    "id" => 5,
     "Url" => "https://www.alexanderochson.se/Parallax-project/",
     "Github" => "https://github.com/HannesAlexandersson/Parallax-project",
     "img" => "/src/Assets/screenshots/halloweenscreenshot.png",
@@ -44,6 +49,7 @@ $newestSiteArray = [
 $earlyDaysArray = [
   "SomeTeams" => [
     "Name" => "SomeTeams",
+    "id" => 6,
     "Url" => "https://www.alexanderochson.se/SomeTeams/",
     "Github" => "https://github.com/HannesAlexandersson/SomeTeams",
     "img" => "/src/Assets/screenshots/someteamsscreenshot.png",
@@ -51,6 +57,7 @@ $earlyDaysArray = [
   ],
   "snack-o-mat" => [
     "Name" => "snack-o-mat",
+    "id" => 7,
     "Url" => "https://www.alexanderochson.se/snack-o-mat/",
     "Github" => "https://github.com/HannesAlexandersson/snack-o-mat",
     "img" => "/src/Assets/screenshots/snacscreenshot.png",
@@ -58,6 +65,7 @@ $earlyDaysArray = [
   ],
   "OpenAPI" => [
     "Name" => "OpenAPI",
+    "id" => 8,
     "Url" => "https://www.alexanderochson.se/OpenAPI/",
     "Github" => "https://github.com/HannesAlexandersson/OpenAPI",
     "img" => "/src/Assets/screenshots/openscreenshot.png",
@@ -65,6 +73,7 @@ $earlyDaysArray = [
   ],
   "theRoom" => [
     "Name" => "theRoom",
+    "id" => 9,
     "Url" => "https://www.alexanderochson.se/theRoom/",
     "Github" => "https://github.com/HannesAlexandersson/theRoom",
     "img" => "/src/Assets/screenshots/roomscreenshot.png",

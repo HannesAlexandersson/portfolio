@@ -10,6 +10,7 @@
   <link rel="Stylesheet" href="/src/Styles/navbar.css" />
   <link rel="Stylesheet" href="/src/Styles/contact.css" />
   <link rel="Stylesheet" href="/src/Styles/story.css" />
+  <link rel="Stylesheet" href="/src/Styles/start.css" />
   <link rel="Stylesheet" href="/src/Styles/footer.css" />
   <meta property="Description"    content="portfolio website for web-dev student Hannes Alexandersson">
   <meta property="og:title"       content="Hannes portfolio">
