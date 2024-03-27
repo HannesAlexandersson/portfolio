@@ -29,7 +29,7 @@
         
     </section>
     <section class="divider">
-    <span><h1 class="story-header default-font">A new life</h1></span>
+        <span><h1 class="story-header default-font">A new life</h1></span>
         <span class="story-text secondary-font">
             <p>
                So back to the school life for me it was! Having 4 years of university studies in the back I do have some experience in how to study.
@@ -38,7 +38,8 @@
                waking hours at the computer either programming or watching tutorials. I dont even see it as a choir, I love it and choose it over playing video games! I cant wait for
                getting to write "real" programs and websites for real customers! 
             </p>
-            
+        </span>
+    </section>
 </div>
 
 <hr>
