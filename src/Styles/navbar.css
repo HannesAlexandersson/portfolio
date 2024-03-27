@@ -1,4 +1,5 @@
 .navbar {
+  z-index: 9999;
   display: flex;
   padding: 0.5rem 1rem 1rem 1rem;
   align-items: center;
@@ -6,7 +7,12 @@
   position: fixed;
   transition: 0.5s;
   width: 100%;
- 
+}
+.hamburger-menu{
+  display: none;
+}
+.links.navigation-mobile {
+  display: none;
 }
 
 .logo {
@@ -72,7 +78,7 @@
   }
   .navigation a {
     position: relative;
-    font-size: 0.7em;
+    font-size: 1.1em;
     color: var(--primary-accent);
     text-decoration: none;
     font-weight: 600;
@@ -80,4 +86,53 @@
     padding: 0.5rem 0.3rem;
     transition: .5s;
 }
+}
+@media (max-width: 500px){
+  .hamburger-menu{
+    display: flex;
+  }
+  .hamburger-icon{
+    font-size: xx-large;
+    cursor: pointer;
+  }
+  .links.navigation {
+    display: none;
+  }
+  /* .links.navigation-mobile.show {
+    display: block;
+  } */
+
+  .links.navigation-mobile {
+    transform: translateX(-50%);
+    border-radius: 2%;
+    width: 95%;
+    z-index: 9999;
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    background-color:var(--default-bg);
+    border: 2px solid var(--secondary-accent);
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+  .links.navigation-mobile a {
+    display: block;
+    padding: .2rem 0;
+    border-bottom: 1px solid #ddd; 
+    font-family: var(--secondary-font);
+    font-size: large;
+  }
+
+  .links.navigation-mobile.show {
+    display: block; /* Show the dropdown when toggled */
+  }
+
+  .nav-links-wrapper {
+    gap: 5%;
+    display: flex;
+}
+  .nav-links-wrapper > img{
+    color: var(--primary-accent);
+  }
 }
