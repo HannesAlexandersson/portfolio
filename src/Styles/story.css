@@ -18,3 +18,30 @@
 .story-text > p{
     color: var(--primary-accent);
 }
+.gif_container {
+    display: flex;
+    border-radius: 22rem;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0;
+}
+.giffy{
+    width: 100%;
+}
+.billy_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust the minimum and maximum widths as needed */
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    gap: 1rem; /* Adjust the gap between images */
+    margin: 2rem;
+}
+.bill{
+width: 50%;
+}
+.catfish{
+    width: 50%;
+}

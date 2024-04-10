@@ -25,10 +25,11 @@
               </div>
             </div>
 
-            <div class="cta-wrapper">
-              <button class="btn-cta">Get In Touch</button>
-            </div>
+           
             
+          </div>
+          <div class="cta-wrapper">
+              <button class="btn-cta">Get In Touch</button>
           </div>
         </div>
         <!--Screen border -->

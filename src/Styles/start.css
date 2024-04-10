@@ -1,5 +1,6 @@
 .outer-wrapper {
     border-radius: 22px;
+    position: relative;
    
     /* height: 100svh; */
     height: 85svh;
@@ -74,7 +75,9 @@
 }
 
 .cta-wrapper{
-    margin-top: 4rem;
+    bottom: 4rem;
+    left: 4rem;
+    position: absolute;
 }
 
 .btn-cta {
@@ -101,12 +104,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 .virtual-card{
     width: 60%;
     height: 10rem;
     position: relative;  
-   
+   margin-top: 10rem;
     background-position: top center;
     transform-style: preserve-3d;
     display: flex;
